@@ -1,0 +1,16 @@
+install:
+    globals:
+        locale: ""
+        region: ""
+    multigame-client:
+        shortcut_created: true
+    rso-auth:
+        install-identifier: ""
+    startup-config:
+        launch_on_computer_set_by_default: false
+    telemetry:
+        heartbeat_interval: 0
+        heartbeat_products: false
+        heartbeat_voice_chat_metrics: false
+        installation_id: ""
+        singular_v1_enabled: false

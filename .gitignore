@@ -1,0 +1,18 @@
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+# Whitelist
+!App/
+App/*
+!App/AppInfo/
+!App/DefaultData/
+!App/RiotClient/
+App/RiotClient/*
+!App/RiotClient/RiotClientFoundation.dll
+!App/RiotClient/RiotClientServices.exe
+!.github/
+!.editorconfig
+!.gitignore
+!README.md
+!RiotClientPortable.exe
+!RiotClientPortable.ini
